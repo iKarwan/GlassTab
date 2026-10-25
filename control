@@ -1,0 +1,9 @@
+Package: me.ikghd.glasstab
+Name: GlassTab
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Force YT Liquid Glass Tab Bar!
+Maintainer: iKarwan <ikghd3@gmail.com>
+Author: iKarwan <ikghd3@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 26.0)
