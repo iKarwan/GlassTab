@@ -36,7 +36,7 @@ static BOOL YTKIsNewYouTube(void) {
 + (BOOL)enableFloatingBottomBar { return YTKIsNewYouTube() ? YES : %orig; }
 + (long long)floatingBarStyle { return YTKIsNewYouTube() ? 1 : %orig; }
 + (BOOL)isIconsOnly { return YTKIsNewYouTube() ? NO : %orig; }
-+ (BOOL)isIPhoneDuoImprovementsEnabled { return YTKIsNewYouTube() ? YES : %orig; }
+// + (BOOL)isIPhoneDuoImprovementsEnabled { return YTKIsNewYouTube() ? YES : %orig; } // enabled by default, not compatible with notched devices.
 %end
 
 // Gate 3: YTColdConfig flags

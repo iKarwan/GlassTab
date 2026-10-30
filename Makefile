@@ -9,7 +9,7 @@ FINALPACKAGE=1
 INSTALL_TARGET_PROCESSES = YouTube
 export ARCHS = arm64
 export TARGET := iphone:clang::26.0
-PACKAGE_VERSION = 0.0.1
+PACKAGE_VERSION = 0.0.2
 
 # ── HARDENED SYSTEM FLAGS ───────────────────────────────────────────────────
 include $(THEOS)/makefiles/common.mk
